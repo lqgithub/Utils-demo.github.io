@@ -1,1 +1,0 @@
-import{_ as c,c as t,o as a,p as _,a as d,b as e}from"./index-DCp2XZnZ.js";const n={},o=s=>(_("data-v-2072cfbd"),s=s(),d(),s),r={class:"error"},p=o(()=>e("span",null,"404~~",-1)),i=o(()=>e("span",null,"没有找到页面",-1)),l=[p,i];function f(s,h){return a(),t("div",r,l)}const m=c(n,[["render",f],["__scopeId","data-v-2072cfbd"]]);export{m as default};

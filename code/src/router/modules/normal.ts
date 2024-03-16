@@ -18,8 +18,8 @@ export const normalRoutes: Array<TypeRouteConfig> = [
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     meta: {
-        title: '404',
+        title: 'Error',
     },
-    component: import("./../../pages/normal/404.vue")  
+    component: import("./../../pages/normal/error.vue")  
   },
 ]
