@@ -4,7 +4,7 @@
 import {
   Setting as iconSetting
 } from '@element-plus/icons-vue';
-import Home from "@/pages/normal/Home.vue"
+import Home from "./../../pages/normal/Home.vue"
 import { TypeRouteConfig } from './typings.d';
 export const normaIcons = [iconSetting];
 
@@ -20,6 +20,6 @@ export const normalRoutes: Array<TypeRouteConfig> = [
     meta: {
         title: '404',
     },
-    component: import("@/pages/normal/404.vue")  
+    component: import("./../../pages/normal/404.vue")  
   },
 ]
