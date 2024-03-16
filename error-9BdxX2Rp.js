@@ -1,0 +1,1 @@
+import{_ as c,c as t,o as a,p as _,a as r,b as o}from"./index-iZFLnRNh.js";const n={},s=e=>(_("data-v-f4490a36"),e=e(),r(),e),d={class:"error"},p=s(()=>o("span",null,"404~~",-1)),i=s(()=>o("span",null,"没有找到页面",-1)),l=[p,i];function f(e,h){return a(),t("div",d,l)}const m=c(n,[["render",f],["__scopeId","data-v-f4490a36"]]);export{m as default};
