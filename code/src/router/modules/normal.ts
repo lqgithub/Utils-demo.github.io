@@ -1,25 +1,20 @@
 /**
  * 默认路由
  */
-import {
-  Setting as iconSetting
-} from '@element-plus/icons-vue';
-import Home from "./../../pages/normal/Home.vue"
-import { TypeRouteConfig } from './typings.d';
-export const normaIcons = [iconSetting];
-
+import Init from "@/pages/normal/InitPage.vue";
+import { TypeRouteConfig } from "./typings.d";
 export const normalRoutes: Array<TypeRouteConfig> = [
-  {  
-    path: '/',  
-    name: 'Home',  
-    component: Home  
+  {
+    path: "/",
+    name: "Init",
+    component: Init,
   },
-  {  
-    path: '/:pathMatch(.*)*',
-    name: 'NotFound',
+  {
+    path: "/:pathMatch(.*)*",
+    name: "NotFound",
     meta: {
-        title: 'Error',
+      title: "404",
     },
-    component: import("./../../pages/normal/error.vue")  
+    component: () => import("@/pages/normal/ErrorPage.vue"),
   },
-]
+];

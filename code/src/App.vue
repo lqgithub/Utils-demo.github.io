@@ -1,17 +1,21 @@
-
 <template>
-  <div>
     <router-view></router-view>
-  </div>
 </template>
 
 <script setup lang="ts">
 
 </script>
-<style scoped>
-div{
+<style>
+html,
+body,
+
+#app {
+  display: flex;
+  overflow-x: auto;
+  flex-direction: column;
+  height: 100%;
   width: 100%;
-  height: 100vh;
-  background-color: aquamarine;
+  font-size: 16px;
+  background-color: #f0f2f5;
 }
 </style>
